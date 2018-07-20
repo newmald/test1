@@ -1,0 +1,106 @@
+html, body {
+	height: 100%;
+}
+/*ырвкпатрифыукот*/
+.wrapper {
+	width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	height: 100%;
+}
+button {
+	border: 0;
+	padding: 4px 10px;
+	background-color: green;
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+}
+.callback:hover {
+	opacity: 0.7;
+}
+.overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.modal {
+	width: 320px;
+	padding: 30px;
+	background-color: green;
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	display: none;
+}
+.modal__title {
+	color: #fff;
+	font-family: sans-serif;
+}
+.modal__input {
+	width: 100%;
+	height: 30px;
+	border: 0;
+	padding: 0 15px;
+	box-sizing: border-box;
+	font-size: 16px;
+	color: #333;
+}
+.modal__submit {
+	background-color: #fff;
+	color: #333;
+}
+.show {
+	display: block;
+}
+.modal__close {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: -2px;
+	right: -24px;
+	background-color: transparent;
+	border: 0;
+    cursor: pointer;
+	font-size: 0;
+}
+.modal__close::before {
+	content: '';
+	width: 20px;
+	height: 2px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	transform: rotate(45deg);
+
+}
+.modal__close::after {
+	content: '';
+	width: 20px;
+	height: 2px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	transform: rotate(-45deg);
+
+}
+/*.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}*/
