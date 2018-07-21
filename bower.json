@@ -1,6 +1,7 @@
 {
   "name": "test1",
   "dependencies": {
-    "jquery": "1.11"
+    "jquery": "1.11",
+    "normalize.css": "^8.0.0"
   }
 }
