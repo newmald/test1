@@ -12,4 +12,3 @@ close.addEventListener('click', function() {
 	modal.classList.remove('show');
 	overlay.classList.remove('show');
 });
-/*пываерувкырпим*/
